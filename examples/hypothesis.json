@@ -1,0 +1,33 @@
+{
+  "proband_id": "EXAMPLE_CASE",
+  "vcf_sample_id": "SOURCE_SAMPLE",
+  "primary_pair": [
+    [
+      "chr1",
+      4,
+      "A",
+      "G"
+    ],
+    [
+      "chr1",
+      8,
+      "C",
+      "T"
+    ]
+  ],
+  "transcript": "SYNTHETIC_TRANSCRIPT.1",
+  "expected_cds_positions": [
+    4,
+    8
+  ],
+  "expected_reference_codons": [
+    "AAA",
+    "GCC"
+  ],
+  "expected_alternate_codons": [
+    "GAA",
+    "GTC"
+  ],
+  "epcr": 0.5,
+  "notes": "Synthetic software example only; invented sequence, no patient or biological prediction."
+}

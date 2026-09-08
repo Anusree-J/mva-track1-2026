@@ -1,0 +1,77 @@
+{
+  "scope": "Public reference files only; excludes organizerdata, privatepaths andcaseidentifiers",
+  "resources": [
+    {
+      "filename": "genes_to_phenotype.txt",
+      "url": "https://purl.obolibrary.org/obo/hp/hpoa/genes_to_phenotype.txt",
+      "bytes": 20821704,
+      "sha256": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c",
+      "acquired_date": "2026-09-08",
+      "notes": "Public resource snapshot; HPO rolling URLs may change, enforce recorded SHA256."
+    },
+    {
+      "filename": "phenotype.hpoa",
+      "url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+      "bytes": 35816037,
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "acquired_date": "2026-09-08",
+      "notes": "Public resource snapshot; HPO rolling URLs may change, enforce recorded SHA256."
+    },
+    {
+      "filename": "gencode.v50.primary_assembly.annotation.gtf.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.primary_assembly.annotation.gtf.gz",
+      "bytes": 124650284,
+      "sha256": "89bbad69a8c89fee5fadec0a2f14a098752d27a4ef7f24e4de9bac681e1b18f4",
+      "acquired_date": "2026-09-08",
+      "notes": "Public resource snapshot; HPO rolling URLs may change, enforce recorded SHA256."
+    },
+    {
+      "filename": "clinvar_20260905.vcf.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20260905.vcf.gz",
+      "bytes": 193476678,
+      "sha256": "8cff3c5fb9bad5b2afaee6d3d2df11067349ba31b2c4e3d1bbdeaa5cb2fc098a",
+      "publisher_md5": "ece04fe2ee72db1dd988d8b188df34b9",
+      "release": "20260905",
+      "assembly": "GRCh38"
+    },
+    {
+      "url": "https://ftp.ensembl.org/pub/release-115/variation/vcf/homo_sapiens/1000GENOMES-phase_3.vcf.gz",
+      "bytes": 1642012706,
+      "sha256": "b54f496abcab3ab11f9b4991751f48c142b723a834d66a039772236824476928",
+      "assembly": "GRCh38",
+      "population_fields": [
+        "AFR",
+        "AMR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "number": "A",
+      "checksum_status": "PASS publisher BSD sum 30378 1603529; local SHA256 recorded",
+      "filename": "1000GENOMES-phase_3.vcf.gz",
+      "release": "Ensembl115"
+    },
+    {
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr15.fa.gz",
+      "bytes": 27201183,
+      "sha256": "0e0d988d6cbdf9fe424e1847a2278aa3ff9636b08663a6dd32c046f001dcf427",
+      "md5": "fd152c2f9d14aaa1b9267e8a1d7561ff",
+      "official_md5_match": true,
+      "sequence_length": 101991189,
+      "filename": "chr15.fa.gz",
+      "assembly": "GRCh38",
+      "purpose": "Local public-reference checks; fetchwholechromosomeonly"
+    },
+    {
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr17.fa.gz",
+      "bytes": 25930986,
+      "sha256": "9acaede8d9b0a190489b49ebf38063bc69897c0d5f125c7549a6f7ee91a0b3c0",
+      "md5": "023ccefd298db339159a446e88d742ac",
+      "official_md5_match": true,
+      "sequence_length": 83257441,
+      "filename": "chr17.fa.gz",
+      "assembly": "GRCh38",
+      "purpose": "Local public-reference checks; fetchwholechromosomeonly"
+    }
+  ]
+}
