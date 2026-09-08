@@ -42,7 +42,7 @@ def main() -> None:
         for line in stream:
             if line.startswith("#CHROM"):
                 samples = line.rstrip().split("\t")[9:]
-                if samples != [hypothesis["proband_id"]]:
+                if samples != [hypothesis.get("vcf_sample_id", hypothesis["proband_id"])]:
                     raise ValueError("VCF sample identity mismatch or multiple samples")
                 sample = samples[0]
             if line.startswith("#"):
@@ -130,7 +130,7 @@ def main() -> None:
         writer.writerow(fields)
         writer.writerow(
             [
-                sample,
+                hypothesis["proband_id"],
                 *variants[0],
                 *variants[1],
                 f"{hypothesis['epcr']:.2f}",
